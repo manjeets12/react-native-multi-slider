@@ -458,6 +458,7 @@ export default class MultiSlider extends React.Component {
               ]}
             />
           )}
+          {this?.props?.renderCustomCuts}
           <View
             style={[
               styles.markerContainer,
